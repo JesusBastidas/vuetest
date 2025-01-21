@@ -64,7 +64,7 @@ const onBlurInput = () => {
         <!-- Dropdown del historial -->
         <div v-show="showDropdown && searchHistory.searchHistory.length>0" id="dropdown" class="z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 absolute mt-2 ml-8">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
-                <li v-for="term in searchHistory.searchHistory.filter(t => t.trim().length>0)" :key="term">
+                <li v-for="term in searchHistory.searchHistory.filter((t: string) => t.trim().length>0)" :key="term">
                     <button @click="searchExecute($event, term, true)" type="button" class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{ term }}</button>
                 </li>
             </ul>
