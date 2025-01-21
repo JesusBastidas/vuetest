@@ -2,6 +2,8 @@
 
 Proyecto: Buscador Dinámico con Historial
 
+Este proyecto implementa un buscador dinámico que interactúa con una API externa para buscar repositorios, con funcionalidades como un historial persistente de búsquedas y un spinner para indicar estados de carga. El proyecto está desarrollado en Vue 3, utilizando Pinia para el manejo del estado global, TailwindCSS para el diseño y estilos, y Vite como herramienta de construcción.
+
 📋 Instrucciones para ejecutar el proyecto
 1. Instalar dependencias
 Ejecuta el siguiente comando en la raíz del proyecto para instalar todas las dependencias requeridas:
@@ -73,4 +75,4 @@ Falta de pruebas unitarias:
 No se implementaron pruebas unitarias ni de integración para validar las funcionalidades del proyecto.
 
 Paginación sencilla:
-El sistema de paginación podría ser más avanzado, como permitir al usuario ir directamente a páginas específicas en lugar de un rango limitado.
+El sistema de paginación podría ser más avanzado, como permitir al usuario ir directamente a páginas específicas en lugar de un rango limitado.# vuetest
